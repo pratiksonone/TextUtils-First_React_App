@@ -24,7 +24,7 @@ export default function Footer(props) {
 
                 </div> */}
                 <hr className='m-0' />
-                <div className={`footer-copyright text-center text-${props.mode === 'light' ? 'dark' : 'white'} py-1`}><i class="fas fa-copyright fs-6"></i> Copyright <i class="fas fa-at"></i> Pratik Sonone </div>
+                <div className={`footer-copyright text-center text-${props.mode === 'light' ? 'dark' : 'white'} py-1`}><i className="fas fa-copyright fs-6"></i> Copyright <i className="fas fa-at"></i> Pratik Sonone </div>
             </footer>
         </>
     )

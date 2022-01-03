@@ -17,10 +17,10 @@ export default function Navbar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link fw-bold " to="/">Home</Link>
+                <Link className="nav-link fw-bold " to="/TextUtils-First_React_App">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fw-bold" to="/about">About</Link>
+                <Link className="nav-link fw-bold" to="/TextUtils-First_React_App/about">About</Link>
               </li>
             </ul>
             <div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'}`}>

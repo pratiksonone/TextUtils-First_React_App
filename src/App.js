@@ -33,8 +33,8 @@ function App() {
         <Navbar mode={mode} onClick={toggleStyle} title={btntext} />
 
         <Routes>
-          <Route exact path="/" element={<TextArea mode={mode} />}></Route>
-          <Route path="/about" element={<About mode={mode} />}></Route>
+          <Route exact path="/TextUtils-First_React_App" element={<TextArea mode={mode} />}></Route>
+          <Route path="/TextUtils-First_React_App/about" element={<About mode={mode} />}></Route>
         </Routes>
         <Footer mode={mode} />
       </Router>
